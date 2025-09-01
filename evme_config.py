@@ -37,7 +37,7 @@ CONTRACT_ABI_MAP = {
     sscl: ABI_FILES["erc20_abi"],
     sds_lp: ABI_FILES["lp_pair_abi"], #21073537
     sds: ABI_FILES["erc20_abi"],
-    monkey: ABI_FILES["erc20_abi"], # starts 19903684
+    monkey: ABI_FILES["erc20_abi"], # starts 19903684 / last 20643684
     monkey_lp: ABI_FILES["lp_pair_abi"], 
     shibo: ABI_FILES["erc20_abi"], # starts 19903684
     shibo_lp: ABI_FILES["lp_pair_abi"], 
