@@ -28,7 +28,7 @@ monkey_lp = "0xc57e71F33C2Ce6FDcC6535F2d62e045053C10C91"
 shibo ="0x10808137849E3Ed8860Da01CAD376B03889684Ef"
 shibo_lp ="0xa4A708B96A513113d30C4a09F410E28F10bdB147"
 CONTRACT_ABI_MAP = {
-    KIDDO_LP: ABI_FILES["lp_pair_abi"],
+    #KIDDO_LP: ABI_FILES["lp_pair_abi"],
     msmoon_lp: ABI_FILES["lp_pair_abi"], #21073537
     msmoon: ABI_FILES["erc20_abi"],
     moonshot_lp: ABI_FILES["lp_pair_abi"], #  last 21075290
@@ -47,7 +47,7 @@ CONTRACT_ABI_MAP = {
 CONTRACT_EVENT_MAP = {
     monkey_lp: {
         "Swap": handle_swap,
-        "Mint": lp_mint,
+        #"Mint": lp_mint,
     },
     monkey: {
         "Transfer": handle_transfer,
